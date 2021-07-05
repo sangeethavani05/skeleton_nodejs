@@ -1,0 +1,24 @@
+{
+  "name": "skeleton_nodejs",
+  "version": "1.0.0",
+  "description": "Skeleton for an Microservice Module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangeethavani05/skeleton_nodejs.git"
+  },
+  "keywords": [
+    "microservice",
+    "skeleton",
+    "nodejs"
+  ],
+  "author": "Sangeethavani T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sangeethavani05/skeleton_nodejs/issues"
+  },
+  "homepage": "https://github.com/sangeethavani05/skeleton_nodejs#readme"
+}
