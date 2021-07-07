@@ -1,8 +1,7 @@
-class UserService{
-
-    async getUser(){
-        return {'name': 'Sangee'}
-    }
+class UserService {
+  async getUser () {
+    return { name: "Sangee" };
+  }
 }
 
 module.exports = UserService;

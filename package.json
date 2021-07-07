@@ -2,9 +2,10 @@
   "name": "skeleton_nodejs",
   "version": "1.0.0",
   "description": "Skeleton for an Microservice Module",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "test": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,12 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
   }
 }

@@ -1,8 +1,7 @@
-class UtilService{
-
-    async getUser(){
-        return {'name': 'Sangee'}
-    }
+class UtilService {
+  async getUser () {
+    return { name: "Sangee" };
+  }
 }
 
 module.exports = UtilService;
