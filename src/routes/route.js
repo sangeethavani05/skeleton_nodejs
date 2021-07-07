@@ -1,9 +1,13 @@
-const Controller = require('../controllers/controller.js')
+const userRoute = require('./user_route.js')
 
 class Routes{
-    constructor(){
-        this.controller = new Controller();
+    constructor(app){
+        this.app = app;
+    }
+    init(){
+        this.app.get('/', (req, res) => res.send({'test': 'OK'}))
+        this.app.use('/users', userRoute)
     }
 }
 
-exports.Routes = Routes;
+module.exports = Routes;

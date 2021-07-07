@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sangeethavani05/skeleton_nodejs/issues"
   },
-  "homepage": "https://github.com/sangeethavani05/skeleton_nodejs#readme"
+  "homepage": "https://github.com/sangeethavani05/skeleton_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
