@@ -1,7 +1,7 @@
-class DBConnection {
-  constructor () {
+// class DBConnection {
+//   constructor () {
 
-  }
-}
+//   }
+// }
 
-exports.DBConnection = DBConnection;
+// exports.DBConnection = DBConnection;

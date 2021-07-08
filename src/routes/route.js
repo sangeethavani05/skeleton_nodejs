@@ -1,4 +1,4 @@
-const userRoute = require("./user_route.js");
+const UserRoute = require("./user_route.js");
 
 class Routes {
   constructor (app) {
@@ -7,7 +7,7 @@ class Routes {
 
   init () {
     this.app.get("/", (req, res) => res.send({ test: "OK" }));
-    this.app.use("/users", userRoute);
+    this.app.use("/users", UserRoute);
   }
 }
 
