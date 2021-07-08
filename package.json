@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "eslint . --fix && jest --coverage"
+    "test": "eslint . --fix && jest --coverage",
+    "test:eslint": "eslint . --fix",
+    "test:jest": "jest --coverage"
   },
   "repository": {
     "type": "git",
