@@ -21,20 +21,20 @@ $ npm run start
 
 ## Test
 
-```bash
-# unit tests (This will run both eslint and Unit test with coverage)
+Unit test (This will run both eslint and Unit test with coverage)
 
+```bash
 $ npm run test
 ```
 
-```bash
-# eslint tests (Only to test with eslint)
+Eslint tests (Only to test with eslint)
 
+```bash
 $ npm run test:eslint
 ```
 
-```bash
-# API unit test with coverage (Only to test with jest and coverage)
+API unit test with coverage (Only to test with jest and coverage)
 
+```bash
 $ npm run test:jest
 ```
