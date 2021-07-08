@@ -1,33 +1,34 @@
 # skeleton_nodejs
 
-# Description
+## Description
 
 Middleware Skeleton with Express Framework
 
-# Installation
+## Installation
 
 ```bash
+$ git clone https://github.com/sangeethavani05/skeleton_nodejs.git
+
 $ npm install
 ```
 
-# Running the app
+## Running the app
 
 ```bash
-# development
 $ npm run start
 ```
 
-# Test
+## Test
 
 ```bash
-# unit tests
+# unit tests (This will run both eslint and Unit test with coverage)
 $ npm run test
-### This will run both eslint and Unit test with coverage
 
-# eslint tests
+
+# eslint tests (Only to test with eslint)
 $ npm run test:eslint
-### Only for lining purpose
 
-# API unit test with coverage
+
+# API unit test with coverage (Only to test with jest and coverage)
 $ npm run test:jest
 ```
