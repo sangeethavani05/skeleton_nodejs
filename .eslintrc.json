@@ -14,5 +14,15 @@
         "indent": ["error", 2],
         "semi": ["error", "always"],
         "quotes": ["error", "double"]
-    }
+    },
+    "overrides": [
+        {
+            "files": [
+              "tests/*.js"
+            ],
+            "env": {
+              "jest": true
+            }
+          }
+    ]
 }

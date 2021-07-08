@@ -13,3 +13,5 @@ app.listen(port, () => {
 // Initialize Router
 const routerObject = new Route(app);
 routerObject.init();
+
+module.exports = app;

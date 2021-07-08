@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "eslint . --fix"
+    "test": "eslint . --fix && jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,8 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.1.0",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
   }
 }
